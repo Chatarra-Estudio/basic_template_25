@@ -1,0 +1,24 @@
+[gd_scene format=2]
+
+[node name="HUD" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = 1.0
+margin_top = 18.0
+margin_right = 398.0
+margin_bottom = 188.0
+color = Color( 0.0666667, 0.00392157, 0.00392157, 0.470588 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 94.0
+margin_top = 76.0
+margin_right = 241.0
+margin_bottom = 90.0
+text = "Conquista las banderas"
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 94.0
+margin_top = 131.0
+margin_right = 241.0
+margin_bottom = 145.0
+text = "Conquista las banderas"
