@@ -10,13 +10,14 @@ config_version=4
 
 [application]
 
-config/name="Galletas Maria"
+config/name="Total War"
 run/main_scene="res://2d-galletas/main.tscn"
-config/icon="res://2d-galletas/galleta2.png"
+config/icon="res://2d-dados/castillo.png"
 
 [display]
 
-window/size/width=800
+window/size/width=1080
+window/size/height=650
 window/stretch/mode="viewport"
 window/stretch/aspect="expand"
 
