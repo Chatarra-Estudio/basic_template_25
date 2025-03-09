@@ -51,7 +51,7 @@ func _tirar_dado():
 		get_parent().get_node("TextureButton/Timer").wait_time =  2.2
 		get_parent().get_node("TextureButton/Timer").start()
 		get_parent().get_node("Tab/VideoPlayer").show()
-		get_parent().get_node("Tab/VideoPlayer").play()
+#		get_parent().get_node("Tab/VideoPlayer").play()
 		
 #		print(get_parent().get_node("TextureButton/Timer"))
 #		print(posiAnte)
