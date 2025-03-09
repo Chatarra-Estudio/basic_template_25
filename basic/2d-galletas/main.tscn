@@ -17,8 +17,16 @@ position = Vector2( 30, 50 )
 scale = Vector2( 5, 5 )
 
 [node name="Label" type="Label" parent="conta"]
-margin_right = 40.0
-margin_bottom = 14.0
+margin_top = -2.0
+margin_right = 90.0
+margin_bottom = 12.0
+text = "Come galletas"
+
+[node name="Label2" type="Label" parent="conta"]
+visible = false
+margin_top = 13.0
+margin_right = 90.0
+margin_bottom = 27.0
 text = "Come galletas"
 
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
