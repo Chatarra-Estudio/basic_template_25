@@ -1,6 +1,14 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://3d-base-tile/BiblioLadrillo.tres" type="MeshLibrary" id=1]
+[ext_resource path="res://2d-dados/fondo.jpg" type="Texture" id=2]
+
+[sub_resource type="PanoramaSky" id=1]
+panorama = ExtResource( 2 )
+
+[sub_resource type="Environment" id=2]
+background_mode = 2
+background_sky = SubResource( 1 )
 
 [node name="SueloMo" type="Spatial"]
 
@@ -12,3 +20,6 @@ data = {
 __meta__ = {
 "_editor_clip_": 0
 }
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 2 )
