@@ -30,7 +30,7 @@ func _on_TextureButton_pressed():
 #	print(get_parent().get_node("conta/Label").set_text("¡Come, come!"))
 	var con = get_parent().cont + 1
 	get_parent().cont = con
-	get_parent().get_node("conta/Label").set_text((str(con) + " refrescos"))
+	get_parent().get_node("conta/Label").set_text((str(con) + " UFOs"))
 	
 	get_parent().get_node("conta/Label2").show()
 	get_parent().puntos =  get_parent().puntos + potenciador

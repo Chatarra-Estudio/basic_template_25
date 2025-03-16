@@ -15,7 +15,7 @@ texture = ExtResource( 1 )
 centered = false
 
 [node name="Sprite2" type="Sprite" parent="fondo"]
-position = Vector2( 0, -650 )
+position = Vector2( 0, -640 )
 texture = ExtResource( 1 )
 centered = false
 
@@ -26,6 +26,7 @@ position = Vector2( 30, 50 )
 scale = Vector2( 5, 5 )
 
 [node name="ColorRect" type="ColorRect" parent="conta"]
+visible = false
 margin_left = -2.0
 margin_top = -3.0
 margin_right = 114.0
