@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://2d-dios1/Dios.gd" type="Script" id=1]
-[ext_resource path="res://2d-dados/icon.png" type="Texture" id=2]
+[ext_resource path="res://2d-dados/fondo.jpg" type="Texture" id=2]
 
 [node name="Dios" type="Node2D"]
 script = ExtResource( 1 )
@@ -11,7 +11,6 @@ margin_right = 1096.0
 margin_bottom = 674.0
 
 [node name="Sprite" type="Sprite" parent="TextureButton"]
-position = Vector2( 540, 300 )
 texture = ExtResource( 2 )
 centered = false
 
