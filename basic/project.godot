@@ -10,16 +10,16 @@ config_version=4
 
 [application]
 
-config/name="Total War"
-run/main_scene="res://2d-galletas/main.tscn"
+config/name="Objeto Volador No Identificado"
+run/main_scene="res://2d-dios1/Dios.tscn"
 config/icon="res://2d-dados/castillo.png"
 
 [display]
 
 window/size/width=1080
 window/size/height=650
-window/stretch/mode="viewport"
-window/stretch/aspect="expand"
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
 
 [gui]
 
