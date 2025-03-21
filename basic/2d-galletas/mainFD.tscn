@@ -15,7 +15,7 @@ texture = ExtResource( 1 )
 centered = false
 
 [node name="Sprite2" type="Sprite" parent="fondo"]
-position = Vector2( 0, -640 )
+position = Vector2( 0, -650 )
 texture = ExtResource( 1 )
 centered = false
 
