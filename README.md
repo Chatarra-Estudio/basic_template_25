@@ -1,5 +1,11 @@
 # basic_template_25
 
+-----------------------------------------------------------------------------------------------------------
+
+https://huggingface.co/spaces/JeffreyXiang/TRELLIS
+
+-----------------------------------------------------------------------------------------------------------
+
 Sonido DJ Frage
 
 https://github.com/Chatarra-Estudio/basic_template_25/tree/7a74e4540f390a34f59d48e883946284ea905a77
