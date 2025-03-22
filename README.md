@@ -1,5 +1,11 @@
 # basic_template_25
 
+Sonido DJ Frage
+
+https://github.com/Chatarra-Estudio/basic_template_25/tree/7a74e4540f390a34f59d48e883946284ea905a77
+
+-----------------------------------------------------------------------------------------------------------
+
 Template para Blobfish
 
 https://github.com/Chatarra-Estudio/basic_template_25/tree/318e7c83f0bb9bfcf99281823ac41e799e41e601
