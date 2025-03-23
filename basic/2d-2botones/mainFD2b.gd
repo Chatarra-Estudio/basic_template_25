@@ -9,6 +9,9 @@ var frecuMalos = 2.7#	cada 2.7 segu Malo
 
 var contaW = 5
 
+var escenaHudGO_carga = preload("res://2d-HUD/HUD.tscn")
+var escenaHudGO
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -48,11 +51,18 @@ func spawn_door():
 			door_instance.position.x = posi + next_door_x_offset
 		else:
 			door_instance.position.x = posi - next_door_x_offset
-	var main_scene = get_tree().get_root().get_node("2botones")
-	main_scene.add_child(door_instance)
+#	var main_scene = get_tree().get_root().get_node("2botones")  #	SIN escena DIOS
+  #	CON escena DIOS
+	add_child(door_instance)
 	door_instance.set_process(true)
 	door_instance.set_physics_process(true)
 
 func _on_twin_timeout():
 	print("puerta")
 	pass # Replace with function body.
+	
+func gameO():
+	escenaHudGO = escenaHudGO_carga.instance()
+	add_child(escenaHudGO)
+	escenaHudGO._game_over()
+	print("gamo Over")

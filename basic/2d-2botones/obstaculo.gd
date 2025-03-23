@@ -9,4 +9,6 @@ func _physics_process(delta):
 	
 		
 func _on_Area2D_body_entered(_body):
-	print("entra 2")
+	get_parent().gameO()
+#	print(get_parent().escenaHudGO)
+	print("g o")
