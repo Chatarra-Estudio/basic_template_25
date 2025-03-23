@@ -23,3 +23,7 @@ __meta__ = {
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource( 2 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -0.0533642, 0.998575, 0, -0.998575, -0.0533642, 0, 13.2916, 0 )
+light_energy = 0.75
