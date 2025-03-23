@@ -4,6 +4,7 @@ var velocity = Vector2.ZERO
 var vivo = true
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	get_node("AnimatedSprite").play("default")
 	pass # Replace with function body.
 func _physics_process(_delta):
 	if vivo:
