@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://2d-2botones/Dios2Bo.gd" type="Script" id=1]
-[ext_resource path="res://3d-car2b/imagen/fondoE.jpg" type="Texture" id=2]
+[ext_resource path="res://2d-dados/fondo.jpg" type="Texture" id=2]
 
 [node name="Dios2Bo" type="Node2D"]
 script = ExtResource( 1 )
