@@ -226,6 +226,10 @@ light_energy = 2.0
 transform = Transform( -0.999969, 0, -0.00788886, 0, 1, 0, 0.00788886, 0, -0.999969, 0.553438, 0.449062, 1.50806 )
 light_energy = 2.0
 
+[node name="DirectionalLight" type="DirectionalLight" parent="Body/ve_ass"]
+transform = Transform( 0.810471, -1.2077e-08, 0.585778, -0.230631, 0.919232, 0.319097, -0.538466, -0.393717, 0.745011, 2.48324, 2.94869, 2.76659 )
+light_energy = 2.0
+
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 _import_path = NodePath("AnimationPlayer")
 

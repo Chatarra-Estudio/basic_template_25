@@ -5,6 +5,7 @@ var sceneIz_carga = preload("res://2d-2botones/mainFD2b.tscn")
 var sceneIz
 
 var sceneDe_carga = preload("res://3d-car1/main1.tscn")
+#var sceneDe_carga = preload("res://3d-car2b/main2b.tscn")
 var sceneDe
 
 # Called when the node enters the scene tree for the first time.
@@ -20,6 +21,7 @@ func _ready():
 func _on_TextureButtonIz_pressed():
 	get_node("TextureButtonDe").queue_free()
 	get_node("TextureButtonIz").queue_free()
+	get_node("Sprite").queue_free()
 	sceneIz = sceneIz_carga.instance()
 	add_child(sceneIz)
 	pass # Replace with function body.
@@ -30,4 +32,5 @@ func _on_TextureButtonDe_pressed():
 	get_node("TextureButtonIz").queue_free()
 	sceneDe = sceneDe_carga.instance()
 	add_child(sceneDe)
+	get_node("Sprite").queue_free()
 	pass # Replace with function body.

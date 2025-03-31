@@ -27,7 +27,7 @@ func _on_tpue_timeout():
 	random_spawn = true
 	for i in range(doors_per_spawn):
 		if not random_spawn:
-			next_door_x_offset += 65 #	65 en x , horizontal separación de 
+			next_door_x_offset += 96 #	65 en x , horizontal separación de 
 #			print("la n", i, posi)
 		spawn_door()
 		if i == doors_per_spawn - 1:
