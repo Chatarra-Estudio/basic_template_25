@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="BoxShape" id=1]
+
+[node name="suelo" type="StaticBody"]
+transform = Transform( 76.3778, 0, 0, 0, 1, 0, 0, 0, 53.235, 0, -8.71208, -1.98676 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+shape = SubResource( 1 )
+
+[node name="CSGBox" type="CSGBox" parent="CollisionShape"]
