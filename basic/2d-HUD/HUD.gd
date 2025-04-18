@@ -48,10 +48,12 @@ func _game_over():
 	go = true
 	crono.set_text(" Game Over ")
 		# definir rojo para un  StyleBoxFlat
-	estilo_plano.bg_color = Color(0.7, 0.01, 0.1) # Rojo  Color(1.0, 0.0, 0.0)
+	estilo_plano.bg_color = Color(0.0, 0.0, 0.0) # Rojo  Color(1.0, 0.0, 0.0)
 	crono.add_stylebox_override("normal", estilo_plano) #	poner color fondo
 #	$Info/Button.scale.x = $Info/Button.scale.x * 1.5 #	escala en x
+	crono.hide()
 	get_node("goWinTexture/goSprite").show()
+#	print(get_node("goWinTexture/goSprite").scale())
 #	$TimerGO.start()
 	temporizador.stop()
 	$TimerGO.start()
