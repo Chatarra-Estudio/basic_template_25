@@ -8,10 +8,20 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Control",
+"class": "VirtualJoystick",
+"language": "GDScript",
+"path": "res://2d-joystick/virtual_joystick.gd"
+} ]
+_global_script_class_icons={
+"VirtualJoystick": ""
+}
+
 [application]
 
 config/name="Objeto Volador No Identificado"
-run/main_scene="res://2d-dios1/Dios.tscn"
+run/main_scene="res://3d-caracter/escenarios/mundo.tscn"
 config/icon="res://2d-dados/castillo.png"
 
 [display]
@@ -24,6 +34,10 @@ window/stretch/aspect="keep"
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
 
 [physics]
 
