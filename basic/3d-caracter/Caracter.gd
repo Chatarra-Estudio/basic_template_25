@@ -30,9 +30,12 @@ func _physics_process(delta):
 	velocity += gravity * delta
 	velocity = move_and_slide(velocity, Vector3.UP)
 	
-	if global_transform.origin.y <  -20:
+	if global_transform.origin.y <  -20 and !pantallaHUD:
 #		print(global_transform.origin.y)
-		pantallaHUD = pantallaHUDcarga.instance()
-		add_child(pantallaHUD)
-		pantallaHUD._game_over()
+#		print(!pantallaHUD)
+		_go_en_carac()
 #		print(get_tree().reload_current_scene())
+func _go_en_carac():
+	pantallaHUD = pantallaHUDcarga.instance()
+	add_child(pantallaHUD)
+	pantallaHUD._game_over()
