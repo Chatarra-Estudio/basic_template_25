@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=2]
-
-[ext_resource path="res://3d-car2/modelosAtre/nautilus.dae" type="PackedScene" id=1]
-
-[node name="nautilus" instance=ExtResource( 1 )]
-transform = Transform( 6.0015, 0, 0, 0, 5.51173, 0, 0, 0, 10.007, 0, 0, 0 )
-
-[node name="mesh" parent="." index="0"]
-transform = Transform( -0.757964, 0.652297, -8.7642e-08, 0, -1.34359e-07, -1, -0.652297, -0.757964, 1.01839e-07, 0, 0, 0 )
