@@ -6,7 +6,7 @@ extends Node2D
 # var b = "text"
 var tiempoAtras = 50
 var temporizador
-var temporiza
+#var temporiza
 var crono 
 var go = false
 # Crear un nuevo StyleBoxFlat
