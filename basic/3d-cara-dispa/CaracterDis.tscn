@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://3d-caracter/Caracter.gd" type="Script" id=1]
+[ext_resource path="res://2d-joystick/virtual_joystick.tscn" type="PackedScene" id=2]
+[ext_resource path="res://3d-cara-dispa/Control-dispa.tscn" type="PackedScene" id=3]
+
+[sub_resource type="BoxShape" id=1]
+
+[node name="Caracter" type="KinematicBody"]
+script = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+shape = SubResource( 1 )
+
+[node name="CSGBox" type="CSGBox" parent="CollisionShape"]
+
+[node name="CSGBox2" type="CSGBox" parent="CollisionShape"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.118858, -2.359 )
+width = 0.751
+height = 0.79
+depth = 2.926
+
+[node name="Control" type="Control" parent="."]
+anchor_right = 0.993
+anchor_bottom = 1.0
+margin_right = 0.167969
+
+[node name="Virtual joystick" parent="Control" instance=ExtResource( 2 )]
+margin_left = 791.0
+margin_top = -240.0
+margin_right = 1047.0
+margin_bottom = -19.0
+clampzone_size = 76.0
+
+[node name="Control" parent="Control" instance=ExtResource( 3 )]
+margin_left = 87.0
+margin_top = 420.0
+margin_right = 87.0
+margin_bottom = 420.0
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.901561, 0.432652, 0, -0.432652, 0.901561, -0.156914, 2.77704, 3.54861 )

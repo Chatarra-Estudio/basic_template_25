@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://2d-joystick/textures/joystick_base_outline.png" type="Texture" id=1]
+[ext_resource path="res://2d-joystick/textures/joystick_tip_big.png" type="Texture" id=2]
+[ext_resource path="res://3d-cara-dispa/Control-dispa.gd" type="Script" id=3]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+
+[node name="TextureButton" type="TextureButton" parent="."]
+margin_right = 107.0
+margin_bottom = 109.0
+texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 2 )
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_TextureButton_pressed"]
