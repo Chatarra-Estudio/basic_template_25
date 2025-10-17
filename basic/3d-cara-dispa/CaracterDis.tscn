@@ -6,7 +6,7 @@
 
 [sub_resource type="BoxShape" id=1]
 
-[node name="Caracter" type="KinematicBody"]
+[node name="CaracterD" type="KinematicBody"]
 script = ExtResource( 1 )
 
 [node name="CollisionShape" type="CollisionShape" parent="."]
@@ -40,3 +40,11 @@ margin_bottom = 420.0
 
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, 0.901561, 0.432652, 0, -0.432652, 0.901561, -0.156914, 2.77704, 3.54861 )
+
+[node name="fusil" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.05094 )
+
+[node name="CSGBox" type="CSGBox" parent="fusil"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.88358 )
+width = 1.0
+height = 1.0
