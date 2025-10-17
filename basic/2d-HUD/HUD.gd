@@ -70,6 +70,7 @@ func _win():
 	get_node("goWinTexture/winSprite").show()
 	$TimerGO.start()
 	temporizador.stop()
+	crono.hide()
 #	$Info/Button
 	print(" Anima Win")
 
