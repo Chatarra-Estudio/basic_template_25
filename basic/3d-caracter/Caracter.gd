@@ -33,9 +33,15 @@ func _physics_process(delta):
 	if global_transform.origin.y <  -20 and !pantallaHUD:
 #		print(global_transform.origin.y)
 #		print(!pantallaHUD)
+#		_win_en_carac()
 		_go_en_carac()
 #		print(get_tree().reload_current_scene())
 func _go_en_carac():
 	pantallaHUD = pantallaHUDcarga.instance()
 	add_child(pantallaHUD)
 	pantallaHUD._game_over()
+	
+func _win_en_carac():
+	pantallaHUD = pantallaHUDcarga.instance()
+	add_child(pantallaHUD)
+	pantallaHUD._win()
