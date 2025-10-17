@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="BoxShape" id=1]
+
+[node name="EnemigoD" type="KinematicBody"]
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+shape = SubResource( 1 )
+
+[node name="CSGBox" type="CSGBox" parent="CollisionShape"]
+
+[node name="CSGBox2" type="CSGBox" parent="CollisionShape"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.118858, -2.359 )
+width = 0.751
+height = 0.79
+depth = 2.926
