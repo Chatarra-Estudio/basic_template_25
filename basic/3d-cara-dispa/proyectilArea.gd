@@ -18,12 +18,12 @@ func _physics_process(delta):
 #	pass
 
 func _on_Area_body_entered(body):
+#	print(body.name)
 #	print(body.name.begins_with("EnemigoD"))
 #	print(body.get_parent().get_child_count())
 	if body.name.begins_with("EnemigoD"):
 		body.queue_free()
 		if body.get_parent().get_child_count() == 1:
-			
 			print("win", get_parent().get_child(0)._win_en_carac())
 	queue_free()
 	pass # Replace with function body.
