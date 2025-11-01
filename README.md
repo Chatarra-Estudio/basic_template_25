@@ -6,6 +6,8 @@ https://trellis3d.co/online
 
 https://www.meshy.ai/ por créditos
 
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/main/modelos/modelos.md enlaces modelos en Blender
+
 -----------------------------------------------------------------------------------------------------------
 
 Red Rock con modelos
