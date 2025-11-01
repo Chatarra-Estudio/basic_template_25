@@ -4,6 +4,8 @@ Mis recomendaciones: Modelos 3D
 
 https://trellis3d.co/online 
 
+https://www.meshy.ai/ por créditos
+
 -----------------------------------------------------------------------------------------------------------
 
 Red Rock con modelos
