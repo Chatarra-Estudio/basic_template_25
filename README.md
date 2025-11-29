@@ -3,6 +3,8 @@
 -----------------------------------------------------------------------------------------------------------
 ## Murcia Game Jam 2025
 
+Plantilla de inicio
+
 https://github.com/Chatarra-Estudio/basic_template_25/tree/1014341c4453ed15ae3b67a79f654af997b8b2cd
 
 ## M-Jam25
