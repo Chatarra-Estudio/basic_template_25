@@ -1,5 +1,16 @@
 # basic_template_25
 
+-----------------------------------------------------------------------------------------------------------
+## Murcia Game Jam 2025
+
+https://www.informajoven.org/convocatorias/actividades/30398/murcia-game-jam-2025
+
+https://www.ceeim.es/es/eventos/murcia-game-jam-2025/
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
 Mis recomendaciones: Modelos 3D
 
 https://trellis3d.co/online 
