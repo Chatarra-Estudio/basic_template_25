@@ -3,11 +3,14 @@
 -----------------------------------------------------------------------------------------------------------
 ## Murcia Game Jam 2025
 
+https://github.com/Chatarra-Estudio/basic_template_25/tree/1014341c4453ed15ae3b67a79f654af997b8b2cd
+
+## M-Jam25
+<img src="https://www.informajoven.org/recursos/fichas/actividades/30398.jpg" alt="Imagen de actividad" width="600"/>
+
 https://www.informajoven.org/convocatorias/actividades/30398/murcia-game-jam-2025
 
 https://www.ceeim.es/es/eventos/murcia-game-jam-2025/
-
-
 
 -----------------------------------------------------------------------------------------------------------
 
